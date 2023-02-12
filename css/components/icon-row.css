@@ -1,0 +1,21 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  }
+  .icon-row__icon i {
+  font-size: 35px;
+  margin-bottom: 25px;
+  }
+  .icon-row__icon span {
+  font-size: 14px;
+  text-align: center;
+  }
+  .icon-row__icon:nth-child(4) ~ .icon-row__icon {
+  margin-top: 50px;
+  }
